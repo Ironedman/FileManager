@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
                    String path = Environment.getExternalStorageDirectory().getPath();
                    intent.putExtra("path",path);
                    startActivity(intent);
+                   //permision granted(punya izin)
                }else {
                    requestPermission();
+                   //minta izin terus
                }
             }
 

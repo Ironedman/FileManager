@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/icon_view"
+        tools:src="@drawable/baseline_folder_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="documents"
+        android:id="@+id/text_view"
+        android:src="@drawable/baseline_insert_drive_file_24"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_below="@+id/text_view"
+
+        />
+</RelativeLayout>
